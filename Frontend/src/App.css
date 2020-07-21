@@ -1,0 +1,29 @@
+.row{
+  display: flex;
+}
+.num-key{
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+.keypad{
+  width: 40%;
+}
+.app input{
+  
+  padding: 1rem;
+  margin: 1rem;
+  width: calc(40% - 4rem);
+}
+
+.app{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.app button{
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+}
